@@ -1,0 +1,93 @@
+info:
+  title: Diamond Shore
+  world: DiamondShore
+  version: 1.0
+  type: dtm
+  creators:
+  - Cobalt838
+  spawn: 1320.5,123,-406.5,180,0
+
+teams:
+  red:
+    spawn: 1380.5,61,-502.5,0,0
+    title: Red Team
+    monuments:
+      a:
+        name: Left
+        location: 1402,50,-351
+      b:
+        name: Middle
+        location: 1392,59,-361
+      c:
+        name: Right
+        location: 1382,49,-366
+  blue:
+    spawn: 1426.5,61,-317.5,180,0
+    title: Blue Team
+    monuments:
+      a:
+        name: Left
+        location: 1404,50,-470
+      b:
+        name: Middle
+        location: 1414,59,-460
+      c:
+        name: Right
+        location: 1424,49,-455
+
+regions:
+  red-area:
+    type: sphere
+    center: 1380,61,-503
+    radius: 8
+    flags:
+      build:
+        who: '*'
+        message: '&cYou may not build in the spawn area.'
+  blue-area:
+    type: sphere
+    center: 1426,61,-318
+    radius: 8
+    flags:
+      build:
+        who: '*'
+        message: '&cYou may not build in the spawn area.'
+
+loadout:
+  effects:
+  - damage resistance:5,5
+  helmet:
+    item: chainmail_helmet
+  chestplate:
+    item: leather_chestplate
+  leggings:
+    item: leather_leggings
+  boots:
+    item: leather_boots
+    enchants:
+    - protection_fall:2
+  0:
+    item: stone_sword
+    enchants:
+    - knockback:1
+  1:
+    item: bow
+  2:
+    item: diamond_pickaxe
+    enchants:
+    - dig_speed:5
+  3:
+    title: '&eGolden Apple'
+    item: golden_apple
+    amount: 3
+  4:
+    item: log
+    amount: 64
+  5:
+    item: glass
+    amount: 64
+  6:
+    item: iron_axe
+  27:
+    item: arrow
+    amount: 64
