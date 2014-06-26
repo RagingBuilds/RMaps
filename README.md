@@ -6,3 +6,4 @@ Server | Map Name      | Gamemode      | Submode              | Repo | Rots | # 
 :-----:| ------------- |:-------------:| --------------------:|:----:|-----:|:-:|
 Avicus | Flowdren      | Nebula        | Destroy the Monument |Yes   |No    | 1 |
 ---------------------------------------------------------------------------------
+If you find an issue with any map please use the "ISSUE TRACKER" and submit issues for imrpovement/map bugs
