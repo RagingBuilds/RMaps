@@ -1,0 +1,39 @@
+info:
+  title: Caida Floral
+  world: CaidaFloral
+  duration: 900
+  version: 1.1
+  type: Nexus
+  creators:
+  - rswizzled 
+  - Cobalt838
+  spawn: -90.06,159,-0.6,-88.6,3
+  time: 16000
+
+duration: 10m
+max: 75
+
+regions:
+  everywhere:
+    type: global
+    flags:
+      fall_damage:
+        who: '*'
+		
+teams:
+  blue:
+    spawn: -11.2,2135,-26.4,-43.2,0
+    title: Azul
+    max: 8
+  green:
+    spawn: 25,5,138,-12.4,-7.7,0
+    title: Verde
+    max: 8
+  yellow:
+    spawn: 15.4,134,25.4,58.7,1
+    title: Amarillo
+    max: 8
+  red:
+    spawn: -25.5,135,15.4,-160.3,2
+    title: Rojo
+    max: 8
